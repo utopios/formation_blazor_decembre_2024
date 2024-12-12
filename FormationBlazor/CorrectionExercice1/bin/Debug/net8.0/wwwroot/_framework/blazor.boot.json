@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "CorrectionExercice1",
   "resources": {
-    "hash": "sha256-F7l8bPjTNxOirTw5tpeoupskjEBDYS7R5fGUDb3tVyk=",
+    "hash": "sha256-9u/XpHmaldlMoRnInELoVwJFhbi4BSdip4QV0SNwGNE=",
     "jsModuleNative": {
       "dotnet.native.8.0.8.mqjiw16iao.js": "sha256-juC5sA7gHTLXFEhAKgdM2/RavswpwCtDfjYGsAz2FXg="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-Gz8PyW2/fwihe5ul81OwmRUrU71r+KtbyRw6xlOGD+Q=",
       "netstandard.wasm": "sha256-jMTqIQzoDS810lyhZpMO5eEC36EzntXqSVn+2qwkOMQ=",
       "System.Private.CoreLib.wasm": "sha256-NFj5WE5VLP2LptZIRJCUIc1AMk06FmxpsSILfPISwAw=",
-      "CorrectionExercice1.wasm": "sha256-v2iOmY3Z7FVs6QJovOrFrbVLE2EHOqJRM1uIoAlvFy0="
+      "CorrectionExercice1.wasm": "sha256-YaXrrMTYkE2x/gAMABbi0W7BMPeL41R7hBTh3tSwdMw="
     },
     "pdb": {
-      "CorrectionExercice1.pdb": "sha256-ZOtZVtw306QR4zCrj2ltOe6x35b+YrBZUdWlDKVWwQE="
+      "CorrectionExercice1.pdb": "sha256-nkL9+5UpQ3Xu3aJ8Pyr3Fjv0BxACzu8sh01PpkHLB4g="
     }
   },
   "cacheBootResources": true,
