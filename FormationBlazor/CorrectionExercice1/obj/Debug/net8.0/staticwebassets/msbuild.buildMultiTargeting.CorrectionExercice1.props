@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/CorrectionExercice1.props" />
+</Project>

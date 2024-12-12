@@ -27,3 +27,4 @@
 /Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/FormationBlazor/obj/Debug/net8.0/FormationBlazor.pdb
 /Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/FormationBlazor/obj/Debug/net8.0/FormationBlazor.genruntimeconfig.cache
 /Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/FormationBlazor/obj/Debug/net8.0/ref/FormationBlazor.dll
+/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/FormationBlazor/obj/Debug/net8.0/FormationBlazor.sourcelink.json

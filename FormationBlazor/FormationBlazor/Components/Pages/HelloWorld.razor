@@ -1,5 +1,7 @@
+@rendermode InteractiveServer
 <h3>Hello @Name</h3>
-<input type="text" @bind="_inputValue"/><button @onclick="ClickDisplay">Afficher</button>
+@* <input type="text" @bind="_inputValue"/><button @onclick="ClickDisplay">Afficher</button> *@
+<input type="text" value="@_inputValue" @onchange="(args) => { _inputValue = (string?)args?.Value; }"/><button @onclick="@ClickDisplay">Afficher</button>
 <div>@_inputValue</div>
 @code {
     [Parameter]
@@ -10,9 +12,11 @@
 
     private string? _inputValue;
 
-    private void ClickDisplay()
+    public void ClickDisplay()
     {
+        Console.WriteLine("Click display button");
         StateHasChanged();
+        
     }
 
 }

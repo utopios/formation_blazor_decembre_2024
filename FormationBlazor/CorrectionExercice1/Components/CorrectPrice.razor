@@ -1,0 +1,25 @@
+<h3>Correct Price</h3>
+<input type="number" @bind="Price"/><button @onclick="@CheckPrice">Vérifier</button>
+<span>@Message</span>
+
+
+@code {
+    private int Price { get; set; }
+    private readonly int _hidePrice = new Random().Next(100);
+    private string? Message { get; set; }
+
+    private void CheckPrice()
+    {
+        if (Price < _hidePrice)
+        {
+            Message = "Plus";
+        } else if (Price > _hidePrice)
+        {
+            Message = "Moins";
+        }
+        else
+        {
+            Message = "Correct";
+        }
+    } 
+}
