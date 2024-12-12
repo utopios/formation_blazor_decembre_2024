@@ -1,0 +1,17 @@
+@page "/second"
+<h3>SecondPagePrice</h3>
+
+@foreach (string user in users)
+{
+    <div>
+        <NavLink href="@{ "UserDetail/" + user}">
+            <span>@user</span>
+        </NavLink>
+    </div>
+}
+
+
+@code {
+    public List<string> users = new List<string>() { "Ihab", "toto" };
+}
+

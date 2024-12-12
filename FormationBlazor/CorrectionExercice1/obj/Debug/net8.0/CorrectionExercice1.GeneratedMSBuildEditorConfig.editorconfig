@@ -30,8 +30,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Db3JyZWN0UHJpY2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/CorrectionExercice1/Pages/DetailUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGV0YWlsVXNlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/CorrectionExercice1/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/CorrectionExercice1/Pages/SecondPagePrice.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2Vjb25kUGFnZVByaWNlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/CorrectionExercice1/_Imports.razor]
