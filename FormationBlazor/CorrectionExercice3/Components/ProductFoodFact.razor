@@ -1,0 +1,15 @@
+@using CorrectionExercice3.DTOs
+@if (Product != null)
+{
+    <h3>@Product.ProductName</h3>
+    @foreach (string keyword in Product.KeyWords)
+    {
+        <div>@keyword</div>
+    }
+}
+
+@code {
+    [Parameter]
+    public Product? Product { get; set; }
+    
+}

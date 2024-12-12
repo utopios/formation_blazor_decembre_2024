@@ -1,0 +1,51 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = CorrectionExercice3
+build_property.RootNamespace = CorrectionExercice3
+build_property.ProjectDir = /Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/CorrectionExercice3/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/CorrectionExercice3
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/CorrectionExercice3/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/CorrectionExercice3/Components/ProductFoodFact.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Qcm9kdWN0Rm9vZEZhY3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/CorrectionExercice3/Containers/ProductFoodFactContainer.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udGFpbmVycy9Qcm9kdWN0Rm9vZEZhY3RDb250YWluZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/CorrectionExercice3/Pages/FoodFactsPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRm9vZEZhY3RzUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/CorrectionExercice3/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/CorrectionExercice3/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-gct6bnhmx4
+
+[/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/CorrectionExercice3/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-dhixl9zayn

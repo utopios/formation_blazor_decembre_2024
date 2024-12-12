@@ -1,0 +1,26 @@
+@using CorrectionExercice3.Services
+@using CorrectionExercice3.DTOs
+@inject IProductApiService ProductApiService;
+<h3>Food Fact</h3>
+<form class="container" @onsubmit="GetProduct">
+    <div class="row">
+        <label class="col-3">Code</label>
+        <input class="col-7 form-control" @bind="Code"/>
+    </div>
+    <div class="row">
+        <button class="btn btn-primary col-12" type="submit">Valider</button>
+    </div>
+</form>
+<ProductFoodFact Product="@Product"></ProductFoodFact>
+
+@code {
+    public string Code { get; set; }
+    public Product Product { get; set; }
+
+    private async void GetProduct(EventArgs eventArgs)
+    {
+        FoodFacts foodFacts =  await ProductApiService.Get(Code);
+        Product = foodFacts.Product;
+        StateHasChanged();
+    }
+}
