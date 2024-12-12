@@ -1,0 +1,18 @@
+<h3>Hello @Name</h3>
+<input type="text" @bind="_inputValue"/><button @onclick="ClickDisplay">Afficher</button>
+<div>@_inputValue</div>
+@code {
+    [Parameter]
+    public string Name { get; set; } = "Default Name";
+    
+    [Parameter]
+    public int Age { get; set; } = 30;
+
+    private string? _inputValue;
+
+    private void ClickDisplay()
+    {
+        StateHasChanged();
+    }
+
+}

@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/FormationBlazor/obj/Debug/net8.0/scopedcss/projectbundle/FormationBlazor.bundle.scp.css",
+      "PackagePath": "staticwebassets/FormationBlazor.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/FormationBlazor/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/FormationBlazor/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/FormationBlazor/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/FormationBlazor/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.FormationBlazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.FormationBlazor.props",
+      "PackagePath": "build\\FormationBlazor.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.FormationBlazor.props",
+      "PackagePath": "buildMultiTargeting\\FormationBlazor.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.FormationBlazor.props",
+      "PackagePath": "buildTransitive\\FormationBlazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
