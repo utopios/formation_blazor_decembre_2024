@@ -1,0 +1,20 @@
+@inject IProductApiService ProductApiService
+@page "/product/{Code}"
+@using CorrectionExercice3.DTOs
+@using CorrectionExercice3.Services
+<h3>ProductPage</h3>
+<ProductFoodFact Product="Product"></ProductFoodFact>
+@code {
+    [Parameter]
+    public string? Code { get; set; }
+    
+    public Product? Product { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        FoodFacts foodFacts = await ProductApiService.Get(Code);
+        Product = foodFacts!.Product;
+        StateHasChanged();
+    }
+
+}

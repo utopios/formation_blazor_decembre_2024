@@ -1,6 +1,7 @@
 @using CorrectionExercice3.Services
 @using CorrectionExercice3.DTOs
 @inject IProductApiService ProductApiService;
+@inject NavigationManager NavigationManager;
 <h3>Food Fact</h3>
 <form class="container" @onsubmit="GetProduct">
     <div class="row">
@@ -19,8 +20,9 @@
 
     private async void GetProduct(EventArgs eventArgs)
     {
-        FoodFacts foodFacts =  await ProductApiService.Get(Code);
-        Product = foodFacts.Product;
-        StateHasChanged();
+        // FoodFacts foodFacts =  await ProductApiService.Get(Code);
+        // Product = foodFacts.Product;
+        // StateHasChanged();
+        NavigationManager.NavigateTo("/Product/"+Code);
     }
 }
