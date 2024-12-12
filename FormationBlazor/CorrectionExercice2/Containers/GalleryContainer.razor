@@ -1,0 +1,14 @@
+<h3>@GalleryType</h3>
+
+<div>
+    @foreach (string image in Images) {
+        <Image UrlImage="@image"></Image>
+    }
+</div>
+
+@code {
+    
+    [Parameter]
+    public string GalleryType { get; set; }
+    public List<string> Images = new List<string>() { "https://picsum.photos/200", "https://picsum.photos/200", "https://picsum.photos/200" };
+}
