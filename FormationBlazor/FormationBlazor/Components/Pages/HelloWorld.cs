@@ -22,5 +22,33 @@ public partial class HelloWorld
         StateHasChanged();
         
     }
-    
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+    }
+
+    // protected override void OnInitialized()
+    // {
+    //     base.OnInitialized();
+    //     Console.WriteLine("Initialisation");
+    // }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        base.OnAfterRender(firstRender);
+        Console.WriteLine("OnAfterRender");
+    }
+
+    protected override bool ShouldRender()
+    {
+        Console.WriteLine("Should render");
+        return base.ShouldRender();
+    }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        Console.WriteLine("Set parameter");
+        await base.OnParametersSetAsync();
+    }
 }
