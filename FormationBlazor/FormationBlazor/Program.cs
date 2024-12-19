@@ -1,6 +1,7 @@
 using FormationBlazor.Components;
 using FormationBlazor.Components.Services;
 using FormationBlazor.Services;
+using Microsoft.AspNetCore.SignalR.Client;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,11 @@ builder.Services.AddScoped<IGreetingService, GreetingService>();
 builder.Services.AddSingleton<SharedService>();
 
 builder.Services.AddScoped<EventAggregator>();
+
+builder.Services.AddScoped<HubConnection>(sp =>
+{
+    return new HubConnectionBuilder().WithUrl("http://localhost:5217/chathub").Build();
+});
 
 var app = builder.Build();
 

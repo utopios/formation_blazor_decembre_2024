@@ -1,4 +1,5 @@
 @using FormationBlazor.Components.Services
+@using Microsoft.AspNetCore.SignalR.Client
 
 <h3>ComponentB</h3>
 
@@ -16,6 +17,9 @@
     private SharedService SharedService { get; set; }
     
     [Inject]
+    private HubConnection _hubConnection { get; set; }
+    
+    [Inject]
     private EventAggregator EventAggregator { get; set; }
 
     protected override void OnInitialized()
@@ -29,6 +33,12 @@
         EventAggregator.Subscribe<string>((m) =>
         {
             message = m;
+            InvokeAsync(() => StateHasChanged());
+        });
+
+        _hubConnection.On<string, string>("ReceiveMessage", (user, m) =>
+        {
+            message = user + " "+ m;
             InvokeAsync(() => StateHasChanged());
         });
     }

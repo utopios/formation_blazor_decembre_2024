@@ -1,4 +1,5 @@
 @using FormationBlazor.Components.Services
+@using Microsoft.AspNetCore.SignalR.Client
 <h3>ComponentA</h3>
 
 <button @onclick="ChangeMessage">Changer le message</button>
@@ -18,11 +19,15 @@
     private SharedService SharedService { get; set; }
     
     [Inject]
+    private HubConnection _hubConnection { get; set; }
+    
+    [Inject]
     private EventAggregator EventAggregator { get; set; }
     
     private void ChangeMessage()
     {
         SharedService.Message = "Message modifié par Composant A";
-        EventAggregator.Publish("Message modifié par Composant A 2");
+        _hubConnection.InvokeAsync("SendMessage", "ihab", "Message modifié par Composant A");
+        //EventAggregator.Publish("Message modifié par Composant A 2");
     }
 }
