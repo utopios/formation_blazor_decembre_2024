@@ -1,4 +1,5 @@
 using FormationBlazor.Components;
+using FormationBlazor.Components.Services;
 using FormationBlazor.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +9,9 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
 builder.Services.AddScoped<IGreetingService, GreetingService>();
+builder.Services.AddSingleton<SharedService>();
+
+builder.Services.AddScoped<EventAggregator>();
 
 var app = builder.Build();
 

@@ -1,4 +1,7 @@
+@using FormationBlazor.Components.Services
 <h3>ComponentA</h3>
+
+<button @onclick="ChangeMessage">Changer le message</button>
 @* <div>Message saisi dans le composant B : @RetourComposantB</div> *@
 <ComponentB OnInformationSet="RecupererInformation"></ComponentB>
 <ComponentC InformationComposnantB="@RetourComposantB" ></ComponentC>
@@ -9,5 +12,17 @@
     {
         RetourComposantB = information;
         StateHasChanged();
+    }
+    
+    [Inject]
+    private SharedService SharedService { get; set; }
+    
+    [Inject]
+    private EventAggregator EventAggregator { get; set; }
+    
+    private void ChangeMessage()
+    {
+        SharedService.Message = "Message modifié par Composant A";
+        EventAggregator.Publish("Message modifié par Composant A 2");
     }
 }

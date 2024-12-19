@@ -1,5 +1,8 @@
+@using FormationBlazor.Components.Services
 
 <h3>ComponentB</h3>
+
+<p>Message : @message</p>
 
 <input type="text" @bind="Saisi" />
 <button @onclick="ValidationSaisi">valider</button>
@@ -8,6 +11,28 @@
     public EventCallback<string> OnInformationSet { get; set; }
     
     public string Saisi { get; set; }
+    private string message;
+    [Inject]
+    private SharedService SharedService { get; set; }
+    
+    [Inject]
+    private EventAggregator EventAggregator { get; set; }
+
+    protected override void OnInitialized()
+    {
+        SharedService.NotifyMessage += (m) =>
+        {
+            message = m;
+            InvokeAsync(() => StateHasChanged());
+        };
+
+        EventAggregator.Subscribe<string>((m) =>
+        {
+            message = m;
+            InvokeAsync(() => StateHasChanged());
+        });
+    }
+
 
     private void ValidationSaisi()
     { 
