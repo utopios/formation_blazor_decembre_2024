@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorrectionExercice3", "Corr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorrectionPendu", "CorrectionPendu\CorrectionPendu.csproj", "{7ECD248F-099F-4CB2-93D3-1B66D6E3D03B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorrectionPenduMVVM", "CorrectionPenduMVVM\CorrectionPenduMVVM.csproj", "{3758367C-1FBC-43C9-8AC0-3412853F5808}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{7ECD248F-099F-4CB2-93D3-1B66D6E3D03B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7ECD248F-099F-4CB2-93D3-1B66D6E3D03B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7ECD248F-099F-4CB2-93D3-1B66D6E3D03B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3758367C-1FBC-43C9-8AC0-3412853F5808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3758367C-1FBC-43C9-8AC0-3412853F5808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3758367C-1FBC-43C9-8AC0-3412853F5808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3758367C-1FBC-43C9-8AC0-3412853F5808}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,19 @@
+@page "/"
+<h3>Bienvenue sur le jeu du pendu</h3>
+<div>
+    @ViewModel.Masque
+</div>
+<div>
+    Nombre d'essais : @ViewModel.NombreEssai
+</div>
+<div>
+    <input type="text" @bind="@ViewModel.Lettre" placeholder="Merci de choisir un caractère" />
+    <button @onclick="ViewModel.TesterLettre">Valider</button>
+    
+</div>
+<div>
+    @ViewModel.Message
+</div>
+@code {
+    
+}
