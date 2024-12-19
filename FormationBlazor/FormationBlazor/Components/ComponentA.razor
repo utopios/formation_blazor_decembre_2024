@@ -1,0 +1,12 @@
+<h3>ComponentA</h3>
+<div>Message saisi dans le composant B : @RetourComposantB</div>
+<ComponentB OnInformationSet="RecupererInformation"></ComponentB>
+@code {
+    public string RetourComposantB { get; set; }
+
+    public void RecupererInformation(string information)
+    {
+        RetourComposantB = information;
+        StateHasChanged();
+    }
+}
