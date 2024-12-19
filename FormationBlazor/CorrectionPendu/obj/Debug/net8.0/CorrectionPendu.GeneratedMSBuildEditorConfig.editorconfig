@@ -1,0 +1,55 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = CorrectionPendu
+build_property.RootNamespace = CorrectionPendu
+build_property.ProjectDir = /Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/CorrectionPendu/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/CorrectionPendu
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/CorrectionPendu/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/CorrectionPendu/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/CorrectionPendu/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/CorrectionPendu/Pages/LePendu.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVQZW5kdS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/CorrectionPendu/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV2VhdGhlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/CorrectionPendu/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/CorrectionPendu/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-jqjy6u25fu
+
+[/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/CorrectionPendu/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-q1khiv7a74

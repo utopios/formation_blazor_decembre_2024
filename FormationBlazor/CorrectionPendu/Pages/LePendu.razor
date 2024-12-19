@@ -1,0 +1,42 @@
+@page "/LePendu"
+@using CorrectionPendu.Model
+<h3>Bienvenue sur le jeu du pendu</h3>
+<div>
+    @Pendu.Masque
+</div>
+<div>
+    Nombre d'essais : @Pendu.NbEssaisRestants
+</div>
+<div>
+    <input type="text" @bind="Lettre" placeholder="Merci de choisir un caractère" />
+    <button @onclick="ValiderLettre">Valider</button>
+    
+</div>
+
+<div>
+    @Message
+</div>
+
+@code {
+    public char Lettre { get; set; }
+    public Pendu Pendu { get; set; }
+    public string Message { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Pendu = new Pendu();
+    }
+
+    private void ValiderLettre()
+    {
+        Message = Pendu.TestChar(Lettre);
+        if (Pendu.TestWin())
+        {
+            Message = "Bravo";
+        }
+
+        Lettre = '\0';
+        Pendu.GenererMasque();
+        StateHasChanged();
+    }
+}
