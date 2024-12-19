@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "CorrectionPenduMVVM",
   "resources": {
-    "hash": "sha256-Q8YeKbh5nhtUmJ+b7CfzDsqm7lkY41vVrWhrpCMiRSM=",
+    "hash": "sha256-qPQDqi9RKLKUnmfB+FN/Xp/hOQJZd9nc/xXKqIW8gPE=",
     "jsModuleNative": {
       "dotnet.native.8.0.8.mqjiw16iao.js": "sha256-juC5sA7gHTLXFEhAKgdM2/RavswpwCtDfjYGsAz2FXg="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-Gz8PyW2/fwihe5ul81OwmRUrU71r+KtbyRw6xlOGD+Q=",
       "netstandard.wasm": "sha256-jMTqIQzoDS810lyhZpMO5eEC36EzntXqSVn+2qwkOMQ=",
       "System.Private.CoreLib.wasm": "sha256-NFj5WE5VLP2LptZIRJCUIc1AMk06FmxpsSILfPISwAw=",
-      "CorrectionPenduMVVM.wasm": "sha256-/UPRz2VRty1LoPXcMjOuK7qLe8dXqQexiGnKn9JSaP4="
+      "CorrectionPenduMVVM.wasm": "sha256-6IYqjPkiy4AfzwtSdm2EF5tGSxUXeck+GmaAppP4/8A="
     },
     "pdb": {
-      "CorrectionPenduMVVM.pdb": "sha256-ULdC/jYCvBr2HA1Wdjj8XU4xbT9NHzFjddgnJlPbveU="
+      "CorrectionPenduMVVM.pdb": "sha256-2JOy0QsUSPSdXVTbr+gBHvn/25K9T6DHcPgX/KkS4i8="
     }
   },
   "cacheBootResources": true,

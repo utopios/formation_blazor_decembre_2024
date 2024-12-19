@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CorrectionPenduMVVM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a007e92b80775cce9a3b0ec2a2ce56b8186f0cbe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38a55e697f4f0cdce99cbf8ee87386fc58fe6d9d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CorrectionPenduMVVM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CorrectionPenduMVVM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

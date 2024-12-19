@@ -11,6 +11,13 @@
     <button @onclick="ViewModel.TesterLettre">Valider</button>
     
 </div>
+
+@for (int i = 1; i <= 10; i++)
+{
+    <button @onclick="() => ViewModel.TestElement(i)"></button>
+}
+
+
 <div>
     @ViewModel.Message
 </div>

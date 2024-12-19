@@ -64,4 +64,9 @@ public class LePenduViewModel : INotifyPropertyChanged
         OnPropertyChanged(propertyName);
         return true;
     }
+
+    public void TestElement(int i)
+    {
+        Console.WriteLine(i);
+    }
 }
