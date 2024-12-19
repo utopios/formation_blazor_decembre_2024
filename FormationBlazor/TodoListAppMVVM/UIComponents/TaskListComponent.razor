@@ -1,6 +1,6 @@
 <ul>
-    @foreach (var task in Tasks)
+    @foreach (var task in TaskState.Tasks)
     {
-        <TaskItemComponent Task="@task" OnTaskToggled="(e) => OnTaskToggled.InvokeAsync(e)" OnTaskRemoved="(e) => OnTaskRemoved.InvokeAsync(e)"></TaskItemComponent>
+        <TaskItemComponent Task="@task"></TaskItemComponent>
     }
 </ul>
