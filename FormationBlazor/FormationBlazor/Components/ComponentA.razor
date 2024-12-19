@@ -24,10 +24,10 @@
     [Inject]
     private EventAggregator EventAggregator { get; set; }
     
-    private void ChangeMessage()
+    private async void ChangeMessage()
     {
         SharedService.Message = "Message modifié par Composant A";
-        _hubConnection.InvokeAsync("SendMessage", "ihab", "Message modifié par Composant A");
+        await _hubConnection.InvokeAsync("SendMessage", "ihab", "Message modifié par Composant A");
         //EventAggregator.Publish("Message modifié par Composant A 2");
     }
 }

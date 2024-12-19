@@ -41,6 +41,7 @@
             message = user + " "+ m;
             InvokeAsync(() => StateHasChanged());
         });
+        _hubConnection.StartAsync();
     }
 
 
