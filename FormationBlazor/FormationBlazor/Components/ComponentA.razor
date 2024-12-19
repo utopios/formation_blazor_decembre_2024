@@ -1,6 +1,7 @@
 <h3>ComponentA</h3>
-<div>Message saisi dans le composant B : @RetourComposantB</div>
+@* <div>Message saisi dans le composant B : @RetourComposantB</div> *@
 <ComponentB OnInformationSet="RecupererInformation"></ComponentB>
+<ComponentC InformationComposnantB="@RetourComposantB" ></ComponentC>
 @code {
     public string RetourComposantB { get; set; }
 

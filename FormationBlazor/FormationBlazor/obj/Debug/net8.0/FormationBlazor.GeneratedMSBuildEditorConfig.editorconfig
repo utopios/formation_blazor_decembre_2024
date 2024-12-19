@@ -30,6 +30,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Db21wb25lbnRCLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/FormationBlazor/Components/ComponentC.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Db21wb25lbnRDLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/ihababadi/Desktop/formation_blazor_decembre_2024/FormationBlazor/FormationBlazor/Components/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
