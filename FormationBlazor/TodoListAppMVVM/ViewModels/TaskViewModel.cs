@@ -20,12 +20,12 @@ public class TaskViewModel : INotifyPropertyChanged
 
     public ObservableCollection<TaskItem> Tasks { get; set; } = new ObservableCollection<TaskItem>();
 
-    public void AddTask()
+    public void AddTask(string newTaskTitle)
     {
-        if (!string.IsNullOrWhiteSpace(NewTaskTitle))
+        if (!string.IsNullOrWhiteSpace(newTaskTitle))
         {
-            Tasks.Add(new TaskItem { Title = NewTaskTitle });
-            NewTaskTitle = string.Empty;
+            Tasks.Add(new TaskItem { Title = newTaskTitle });
+            //NewTaskTitle = string.Empty;
         }
     }
 

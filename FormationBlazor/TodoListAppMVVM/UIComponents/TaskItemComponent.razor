@@ -1,0 +1,9 @@
+<li>
+            <input type="checkbox" @bind="Task.IsCompleted" @onclick="() => OnTaskToggled.InvokeAsync(Task)" />
+            <span style="@((Task.IsCompleted ? "text-decoration: line-through;" : ""))">@Task.Title</span>
+            <button @onclick="() => OnTaskRemoved.InvokeAsync(Task)">Supprimer</button>
+        </li>
+
+@code {
+    
+}
